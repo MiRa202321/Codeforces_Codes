@@ -18,7 +18,7 @@ public class just {
                 }
             }
 
-            System.out.println("larget string "+ls+" "+max);
+         //   System.out.println("larget string "+ls+" "+max);
             
             //comparing each string/its substring with the ls
             for(int j=0;j<la;j++){
@@ -47,7 +47,7 @@ public class just {
                 
                         if(st.substring(0,l).compareTo(ls.substring(0,l))==0){
                             res=st.substring(0,l);
-                            System.out.println("second "+res);
+                         //   System.out.println("second "+res);
                             temp++;
                             break;
                         }
@@ -57,7 +57,8 @@ public class just {
           
         }
     }//loop
-            System.out.println(res);
+           // System.out.println(res);
+           //return res;
         }
     }
     
